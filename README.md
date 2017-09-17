@@ -3,22 +3,19 @@ Experimental process isolation written in Rust (__Linux only__).
 
 # Installation
 
-Install [Rust](https://www.rust-lang.org/en-US/downloads.html)
-```bash
-curl -sSf https://static.rust-lang.org/rustup.sh | sh
-```
+1. Install [Rust](https://www.rust-lang.org/en-US/downloads.html)
 
-Clone this repository
+2. Clone this repository
 ```git
 git clone [REPO]
 ```
 
-Build
+3. Build
 ```bash
 cargo build --release
 ```
 
-Run
+4. Run
 ```bash
 ./target/release/isolate-rs
 ```
