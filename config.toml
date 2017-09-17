@@ -1,0 +1,11 @@
+# mount readonly directories
+readonly_dirs = ["/bin", "/sbin", "/lib", "/lib64", "/usr", "/etc"]
+
+# mount temporary directories
+tmpfs_dirs = ["/tmp", "/var/tmp", "/var/run"]
+
+# run command
+command = ["/bin/bash"]
+
+# change dir to initial dir
+initial_dir = "/tmp"

@@ -1,0 +1,16 @@
+[package]
+name = "isolate-rs"
+version = "0.1.0"
+authors = ["matthias"]
+
+[profile.release]
+lto = true
+#panic = 'abort'
+
+[dependencies]
+nix = "0.9.0"
+error-chain = "0.10.0"
+clap = "2.26.0"
+toml = "0.4.5"
+serde_derive = "1.0.11"
+serde = "1.0.11"
