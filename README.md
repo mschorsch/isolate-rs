@@ -15,7 +15,7 @@ git clone [REPO]
 cargo build --release
 ```
 
-4. Run
+4. Run (default)
 ```bash
 ./target/release/isolate-rs
 ```
